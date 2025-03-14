@@ -1,0 +1,14 @@
+<h1>Coșul tău de cumpărături</h1>
+    <ul>
+        <% if (produse.length === 0) { %>
+            <p>Coșul tău este gol.</p>
+        <% } else { %>
+            <% produse.forEach(function(produs) { %>
+                <li><%= produs.nume %> - <%= produs.pret %> RON</li>
+            <% }); %>
+        <% } %>
+    </ul>
+    <br>
+    <form action="/" method="get"> 
+        <button class="button" type="submit">Înapoi la magazin</button> 
+    </form>

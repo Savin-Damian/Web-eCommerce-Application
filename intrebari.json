@@ -1,0 +1,77 @@
+[
+    {
+        "intrebare": "Ce reprezintă un document?", 
+        "variante": ["Un fișier care conține informații scrise", "Un obiect de decor pentru birou", "Un instrument muzical cu coarde", "O băutură răcoritoare"],
+        "corect": 0
+    },
+    {
+        "intrebare": "Ce este un manuscris?",
+        "variante": ["Un document scris de mână", "Un document tipărit", "Un document electronic", "Un document digital"],
+        "corect": 0
+    },
+    {
+        "intrebare": "Care a fost primul instrument utilizat pentru scrierea manuscriselor?",
+        "variante": ["Pixul", "Creionul", "Pana de gâscă", "Mașina de scris"],
+        "corect": 2
+    },
+    {
+        "intrebare": "Ce reprezintă digitalizarea documentelor?",
+        "variante": ["Transformarea documentelor scrise de mână în documente tipărite", "Transformarea documentelor tipărite în documente electronice", "Transformarea documentelor electronice în documente tipărite", "Transformarea documentelor tipărite în manuscrise"],
+        "corect": 1
+    },
+    {
+        "intrebare": "Care este avantajul principal al documentelor electronice față de cele tipărite?",
+        "variante": ["Sunt mai greu de accesat", "Sunt mai ușor de partajat și de căutat", "Sunt mai costisitoare de produs", "Sunt mai grele"],
+        "corect": 1
+    },
+    {
+        "intrebare": "Ce este un fișier PDF?", 
+        "variante": ["Un format de fișier pentru imagini", "Un format de fișier pentru text", "Un format de fișier pentru sunet", "Un format de fișier pentru documente"],
+        "corect": 3
+    },
+    {
+        "intrebare": "Care este extensia comună a unui fișier de text?", 
+        "variante": [".docx", ".pdf", ".txt", ".jpg"],
+        "corect": 2
+    },
+    {
+        "intrebare": "Ce reprezintă sigla \"PDF\"?",
+        "variante": ["Portable Document Format", "Personal Digital File", "Print Document Finder", "Program Data File"],
+        "corect": 0
+    },
+    {
+        "intrebare": "Ce este un format de fișier \"DOCX\"?",
+        "variante": ["Un format de fișier pentru imagini", "Un format de fișier pentru text", "Un format de fișier pentru sunet", "Un format de fișier pentru documente"],
+        "corect": 1
+    },
+    {
+        "intrebare": "Care dintre următoarele opțiuni nu este un format de fișier pentru documente?",
+        "variante": ["PDF", "JPG", "DOCX", "TXT"],
+        "corect": 1
+    },
+    {
+        "intrebare": "Care a fost unul dintre primele sisteme de scriere?",
+        "variante": ["Hieroglifele egiptene", "Scrierea cuneiformă", "Scrierea latină", "Scrierea chineză"],
+        "corect": 1
+    },
+    {
+        "intrebare": "Ce este un fișier CSV?",
+        "variante": ["Un format de fișier pentru imagini", "Un format de fișier pentru text", "Un format de fișier pentru tabele", "Un format de fișier pentru sunet"],
+        "corect": 2
+    },
+    {
+        "intrebare": "Care este extensia comună a unui fișier Excel?",
+        "variante": [".xls", ".exe", ".docx", ".pdf"],
+        "corect": 0
+    },
+    {
+        "intrebare": "Ce reprezintă sigla \"XLSX\"?",
+        "variante": ["eXtensible Markup Language", "Xtra Large Storage eXtension", "eXtended Library System", "Excel Spreadsheet"],
+        "corect": 3
+    },
+    {
+        "intrebare": "Ce este un fișier RTF?",
+        "variante": ["Un format de fișier pentru imagini", "Un format de fișier pentru text", "Un format de fișier pentru sunet", "Un format de fișier pentru documente"],
+        "corect": 1
+    }
+]

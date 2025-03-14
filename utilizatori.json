@@ -1,0 +1,8 @@
+[{"utilizator": "test", "parola": "test", "nume":"TEstMare", "prenume": "TestMic", "rol": "USER"}, 
+ {"utilizator": "lili", "parola": "lili", "nume":"Lolipop" , "prenume":"lili", "rol": "USER"}, 
+ {"utilizator": "testulet", "parola": "testulet", "nume":"Federico", "prenume":"Eglesias", "rol": "ADMIN"},
+ {"utilizator": "marian", "parola": "marian" , "nume":"Feroli", "prenume":"Marian", "rol": "USER"}, 
+ {"utilizator": "abc", "parola": "abc", "nume":"Popescu", "prenume":"Sergiu", "rol": "USER"}, 
+ {"utilizator": "raisa", "parola": "raisa", "nume":"Raisa", "prenume":"Raisa", "rol": "ADMIN"},
+ {"utilizator": "admin", "parola": "admin", "nume":"Admin", "prenume":"cu A mare", "rol": "ADMIN"}
+]

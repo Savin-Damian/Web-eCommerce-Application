@@ -1,0 +1,20 @@
+
+
+<form action="/verificare-autentificare" method="POST"> 
+    <fieldset>
+        <legend>Login:</legend>
+        <label for="utilizator">Utilizator:</label>
+        <input type="text" id="utilizator" name="utilizator"> <br/> <br/>
+        <label for="parola">Parola:</label>
+        <input type="password" id="parola" name="parola"><br/> <br/>
+
+        <button class="button" type="submit">Autentificare</button> 
+        
+    </fieldset>
+</form>
+
+<div class="eroare"> <% if (mesajEroare) { %>
+                        <p class="mesaj-eroare"><%= mesajEroare %></p> 
+                    <% } %> 
+                    
+</div>  

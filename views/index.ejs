@@ -1,0 +1,42 @@
+
+
+<br>
+<% if(nume_utilizator) { %>
+    <h1>Bine ai venit, <%= nume_utilizator %>!</h1> 
+<% } %>
+
+<br>
+<div class="buton_centru">
+    <form action="/creare-bd" method="get"> 
+        <button class="button" type="submit">Creare BD</button> 
+    </form>
+    <br>
+    <form action="/inserare-bd" method="get">
+        <button  class="button" type="submit">Înserare BD</button> 
+    </form>
+    <br>
+    <form action="/admin" method="get"> 
+        <button class="button" type="submit">Admin</button> 
+    </form>
+</div>
+
+<fieldset>
+    <legend>Lista de produse:</legend>
+    <ul>
+    <% for(var i=0; i<produse.length; i++) { %>
+        <li>
+        <h2><%= produse[i]['nume'] %></h2>
+        <p>Preț: <%= produse[i]['pret'] %> RON</p>
+        <% if(nume_utilizator) {   %>
+            <form action="/adaugare_cos" method="get">
+                <input type="hidden" name="id" value="<%= produse[i]['id'] %>">
+                <button class="button" type="submit">Adaugă în coș</button>
+            </form>
+        <% } else {  %>
+            <h4>Vă rugăm să vă autentificați pentru a putea adăuga produse în coș</h4>  
+        <% }  %>
+        </li>
+    <% }; %>
+    </ul>
+</fieldset>
+

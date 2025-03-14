@@ -1,0 +1,21 @@
+<h2>Rezultatul Chestionarului</h2>
+<p>Ai răspuns corect la <%= corecte %> din 15 întrebări.</p>
+<% for (var i = 0; i < intrebari.length; i++) { %>
+    <h3>Întrebarea <%= i + 1 %>: <%= intrebari[i].intrebare %></h3>
+    <% for (var j = 0; j < intrebari[i].variante.length; j++) { %>
+        <label class="<%= (raspunsuriEvidentiate[i] === j && intrebari[i].corect === j) ? 'stil-label-corect' : (raspunsuriEvidentiate[i] === j ? 'stil-label-gresit' : 'stil-label') %>">
+            <input type="radio" name="intrebare<%= i %>" value="<%= j %>" <%= raspunsuriEvidentiate[i] === j ? 'checked' : '' %>> 
+            <%= intrebari[i].variante[j] %> 
+        </label><br>
+    <% } %>
+    <br>
+<% } %>
+
+<form action="/chestionar" method="get"> 
+    <button class="button" type="submit">Înapoi la chestionar</button> 
+</form>
+<br>
+<form action="/" method="get"> 
+    <button class="button" type="submit">Spre pagina inițială</button> 
+</form>
+

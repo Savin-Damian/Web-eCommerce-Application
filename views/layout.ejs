@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+    <head>
+        
+        <title>Layout</title>  
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/still.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <header>
+                <nav>
+                    <a href="/">Acasă</a>
+                    <a href="/chestionar">Chestionar</a>
+                    <a href="/vizualizare_cos">Vizualizează coșul</a>
+                    <a href="/autentificare">Autentificare</a>
+                </nav>
+            </header>
+            
+            <div class="delogare">
+            <% if (user) { %>
+                <p>Autentificat ca <%= user.nume %> <%= user.prenume %></p>
+                <form action="/delogare" method="get">
+                    <button class="button" type="submit">Delogare</button>
+                </form>
+            <% }  %>
+            </div>
+        </div>
+        <br><br>
+  
+        <h1 class="animatie_text2" >De la Manuscris la Document Electronic: O Călătorie în Timp</h1>
+
+
+        <main> <%- body %> </main>
+
+
+        <footer>
+            &copy; 2024. Programare web. Toate drepturile rezervate.
+        </footer>
+    </body>
+</html>
